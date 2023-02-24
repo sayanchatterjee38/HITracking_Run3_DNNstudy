@@ -1,10 +1,10 @@
 # HITracking_Run3_DNNstudy
 
-Step1: CMSSW Version: CMSSW_12_5_0_pre5
+Step1: CMSSW Version: CMSSW_12_5_0
 
 Step2: cd CMSSW_12_5_0_pre5/src/
 
-Step3: Cloned Configuration folder via git cms-addpkg Configuration/Eras/python/
+Step3: git cms-merge-topic mandrenguyen:trackDNN_HI_reorder
 
 Step4: cmsenv & scram b -j12
 
